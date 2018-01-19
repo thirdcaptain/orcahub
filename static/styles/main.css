@@ -1,0 +1,26 @@
+h1 {
+  font-family:sans-serif;
+  text-align: center;
+}
+.repos {
+  font-family:sans-serif;
+  margin:0;
+  padding:20px 0 0;
+    list-style-type: none;
+
+}
+.repos > li {
+  display:block;
+  background-color: #eee;
+  padding:10px;
+  box-shadow: inset 0 1px 0 #fff;
+}
+h3#repo-name {
+  font-size: 16px;
+  margin:0 0 0.3rem;
+  font-weight: normal;
+  font-weight:bold;
+}
+p#pr-pub {
+  margin:0;
+}
