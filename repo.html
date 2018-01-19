@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
    <meta charset="utf-8">
    <title>OrcaHub</title>
    <link rel="stylesheet" href="styles/main.css">
    <link rel="stylesheet" href="styles/header.css">
    <link rel="stylesheet" href="styles/footer.css">
-   <link rel="icon" href="images/icon.png" type="image/png">
+   <link rel="icon" href="images/iconalt.png" type="image/png">
   </head>
+
   <body>
    <header>
-    <img src="static/images/icon.png" alt="" />
-    <h1 class="head"> OrcaHub </h1>
+    <img src="images/iconalt.png" alt="" />
+    <h1 class="name"> OrcaHub </h1>
+    <button class="logout">Log out
+    </button>
    </header>
-   <body>
+
+   <div>
       <h1> Repositories </h1>
-      <div class="display">
-          <ul class=repos>
-    <li>
-      <h3 id="repo-name">Repo1</h3>
-      <p id="pr-pb">Private</p>
-<table class="main-table">
+      <div class="display"></div>
+    <ul class=repos>
+      <li>
+        <h3 id="repo-name">Repo1</h3>
+        <p id="pr-pb">Private</p>
+        <table class="main-table">
       <thead>
         <tr>
           <th class="fixed-side" id="empty">&nbsp;</th>
@@ -67,30 +72,29 @@
         </tr>
         <tr>
         <th class="fixed-side">Saturday</th>
-          </tr>  
-      </tbody>   
+          </tr>
+      </tbody> 
       </table>
-    </li>
-    <li>
-      <h3 id="repo-name">Repo2</h3>
-      <p id="pr-pb">Public</p>
-    </li>
-    <li>
-      <h3 id="repo-name">Repo3</h3>
-      <p id="pr-pb">Public</p>
-    </li>
-    <li>
-      <h3 id="repo-name">Repo4</h3>
-      <p id="pr-pb">Private</p>
-    </li>
-  </ul>
+
+      </li>
+      <li>
+        <h3 id="repo-name">Repo2</h3>
+        <p id="pr-pb">Public</p>
+      </li>
+      <li>
+        <h3 id="repo-name">Repo3</h3>
+        <p id="pr-pb">Public</p>
+      </li>
+      <li>
+        <h3 id="repo-name">Repo4</h3>
+        <p id="pr-pb">Private</p>
+      </li>
+    </ul>
   </div>
-   </body>
-   <footer>
-     <p>
-       Holberton School
-     </p>
-   </footer>
+
+  <footer>
+    <p>Holberton School
+    </p>
+  </footer>
   </body>
 </html>
-
