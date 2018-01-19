@@ -21,13 +21,8 @@ h1 {
 
 h3#repo-name {
   font-size: 16px;
-  margin:0;
   font-weight: normal;
   font-weight:bold;
-}
-p#pr-pub {
-  margin:0;
-  padding-right:20px;
 }
 
 .fixed-side {
