@@ -24,3 +24,48 @@ h3#repo-name {
 p#pr-pub {
   margin:0;
 }
+.fixed-side {
+  border:none;
+  background:#eee;
+  visibility:visible;
+  padding-bottom: 10px;
+}
+th#week{
+  padding: 10px;
+}
+
+.square6 {
+  background:#333333;
+  max-width: 10px;
+  max-height: 10px;
+}
+.square5 {
+  background:#5c5c5c;
+  max-width: 10px;
+  max-height: 10px;
+}
+.square4 {
+  background:#8a8a8a;
+  max-width: 10px;
+  max-height: 10px;
+}
+.square2 {
+  background:#707070;
+  max-width: 10px;
+  max-height: 10px;
+}
+.square2 {
+  background:#bfbfbf;
+  max-width: 10px;
+  max-height: 10px;
+}
+.square1 {
+  background:#e3e3e3;
+  max-width: 10px;
+  max-height: 10px;
+}
+.square0 {
+  background:white;
+  max-width: 10px;
+  max-height: 10px;
+}
