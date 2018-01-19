@@ -6,10 +6,23 @@ from flask_cors import CORS
 
 from os import getenv
 import requests
+import smtplib
 
 app = Flask(__name__)
 app.url_map.strict_slashes = False
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
+
+def send_email(user='minasanton@gmail.com'):
+    """send email to user"""
+    FROM = 'orcateamhub@gmail.com'
+    TO = [user]
+    message = "Thank you for using Orca!"
+    server = smtplib.SMTP('smtp.gmail.com:587')
+    server.starttls()
+    server.login(FROM, 'elppa123')
+    server.sendmail(FROM, TO, message)
+    server.quit()
+
 
 @app.route('/authenticate', methods=['GET'])
 def authenticate_user():
