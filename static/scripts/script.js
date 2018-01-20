@@ -8,7 +8,6 @@ $(function () {
     } else {
 	localStorage.setItem('access_token', access_token);
     }
-    console.log(access_token);
     let data = {'access_token': access_token};
     $.getJSON('https://api.github.com/user', data, function (user) {
 	$.getJSON(user.repos_url, data, function (repos) {
@@ -19,10 +18,6 @@ $(function () {
 		} else {
 		    isPrivate = 'Public';
 		}
-		let commit_activity;
-		$.getJSON(repo.url + '/stats/commit_activity', data, function (activity) {
-		    commit_activity = activity;
-		});
 
 		let li = document.createElement('li');
 		$(li).data('name', repo.name);
@@ -45,7 +40,7 @@ $(function () {
 		    $.getJSON(repo.url + '/stats/commit_activity', data, function (activity) {
 			let frontTags = '<div class="dropdown-content"><table class="main-table"><tr><th class="fixed-side" id="empty">&nbsp;</th><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>';
 			let middleTags = '';
-			activity.forEach(function (i, week) {
+			activity.forEach(function (week, i) {
 			    middleTags += '<tr><td>' + i + '<td>';
 			    let days = {
 				0: 'Sunday',
@@ -56,7 +51,8 @@ $(function () {
 				5: 'Friday',
 				6: 'Saturday'
 			    };
-			    week.days.forEach(function (j, commitsPerDay) {
+			    console.log(week);
+			    week.days.forEach(function (commitsPerDay, j) {
 				middleTags += '<td>';
 				middleTags += days[j];
 				middleTags += '</td>';
@@ -67,7 +63,7 @@ $(function () {
 			    middleTags += '</tr>';
 			});
 			let endTags = '</table></div>';
-			$(li).append(frontTags + middleTags + endTags);
+			$(h3).after(frontTags + middleTags + endTags);
 		    });
 		});
 		$('ul.repos').append(li);

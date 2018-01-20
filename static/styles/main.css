@@ -10,16 +10,18 @@ h1 {
 
 }
 .repos > li {
-  display:block;
   background-color: #eee;
   padding:10px;
   box-shadow: inset 0 1px 0 #fff;
   margin: 30px 30px;
+}
+
+.repos > li > .reponame {
   display: flex;
   justify-content: space-between;
 }
 
-h3#repo-name {
+ul.repos > li > .reponame > h3 {
   font-size: 16px;
   font-weight: normal;
   font-weight:bold;
