@@ -28,10 +28,11 @@ def send_email(user='minasanton@gmail.com'):
 def authenticate_user():
     code = request.args.get('code')
     if code:
-        print(code)
-        data = {'code': code}
-        data['client_id'] = getenv('CLIENT_ID')
-        data['client_secret'] = getenv('CLIENT_SECRET')
+        data = {
+            'code': code,
+            'client_id': getenv('CLIENT_ID'),
+            'client_secret': getenv('CLIENT_SECRET')
+        }
         r = requests.post('https://github.com/login/oauth/access_token',
                           params=data, headers={'Accept': 'application/json'})
         try:
