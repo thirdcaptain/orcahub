@@ -12,8 +12,11 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
-def send_email(user='minasanton@gmail.com'):
+app.route('/thankyouemail', methods=['GET'])
+def send_email(user=None):
     """send email to user"""
+    if user is None:
+        return (jsonify({"error": "no email provided"}))
     FROM = 'orcateamhub@gmail.com'
     TO = [user]
     message = "Thank you for using Orca!"
@@ -22,7 +25,7 @@ def send_email(user='minasanton@gmail.com'):
     server.login(FROM, 'elppa123')
     server.sendmail(FROM, TO, message)
     server.quit()
-
+    return (jsonify({"status": "OK"}))
 
 @app.route('/authenticate', methods=['GET'])
 def authenticate_user():
