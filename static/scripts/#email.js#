@@ -1,0 +1,1 @@
+$.get('https://thankyouemail
