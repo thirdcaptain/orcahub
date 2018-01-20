@@ -39,7 +39,7 @@ The firewall will need to pass HTTP, HTTPS, SSH, and TCP traffic through.
 ## Usage
 
 Once the website is up, use a web browser to go to the home page to see a single button for login.
-<p align="center"><img src="https://github.com/orcahubteam/orcahub/blob/master/OrcaHubHome.png" style="height:10%;width:10%" /></p>
+<p align="center"><img src="https://github.com/orcahubteam/orcahub/blob/master/Screen%20Shot%202018-01-19%20at%2010.43.55%20PM.png" style="height:10%;width:10%" /></p>
 
 Click on a specific repository link to view the commit history and a contribution panel covering the last 12 months will appear.
 
