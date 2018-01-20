@@ -12,7 +12,7 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
-app.route('/thankyouemail<sting:user>', methods=['GET'])
+app.route('/thankyouemail/<string:user>', methods=['GET'])
 def send_email(user=None):
     """send email to user"""
     if user is None:
