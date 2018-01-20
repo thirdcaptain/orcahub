@@ -2,45 +2,21 @@
 
 A website that allows a user to connect to Github and displays activities of all the user’s repositories.
 
-## Getting Started
+## Introduction
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Allow users to connect using their Github credentials. 
+When a user is connected:
+ - Display the user’s GitHub username and the list of all the user’s GitHub repositories (public and private)
+When user clicks on one repository:
+ - Display last year’s worth of commit activities
 
 ## Built With
 
-* 
-* 
-* 
+* Javascript - JQuery, HTML/CSS
+* Flask - Get access token
+* Uwsgi - connect Flask and Nginx
+* Nginx - SSL Certification to serve HTTPS content
+* UFW - firewall
 
 ## Authors
 
