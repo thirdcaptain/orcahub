@@ -1,6 +1,6 @@
 # OrcaHub - GitHub Contribution Panel project
 
-<p><img src="https://github.com/orcahubteam/orcahub/blob/master/LogoOrcahub.png" style="height:15%;width:15%" /></p>
+<p align="center"><img src="https://github.com/orcahubteam/orcahub/blob/master/LogoOrcahub.png" style="height:15%;width:15%" /></p>
 
 ## Introduction
 
@@ -28,7 +28,7 @@ When a user attempts to log in to https://orcas.holberton.us (or a custom domain
 * Nginx - SSL Certification to serve HTTPS content
 * UFW - firewall
 * Any web browser
-* python3 (v3.4.3)
+* Python3 (v3.4.3)
 * Ubuntu (v14.04 LTS)
 
 ## Installation
@@ -39,7 +39,7 @@ The firewall will need to pass HTTP, HTTPS, SSH, and TCP traffic through.
 ## Usage
 
 Once the website is up, use a web browser to go to the home page to see a single button for login.
-<img src="https://github.com/orcahubteam/orcahub/blob/master/OrcaHubHome.png" style="height:10%;width:10%" />
+<p align="center"><img src="https://github.com/orcahubteam/orcahub/blob/master/Screen%20Shot%202018-01-19%20at%2010.43.55%20PM.png" style="height:10%;width:10%" /></p>
 
 Click on a specific repository link to view the commit history and a contribution panel covering the last 12 months will appear.
 
@@ -59,5 +59,4 @@ An imaginative press release was written for this project for your amusement.
 - Alexa Orrico ([@alexa_orrico](https://twitter.com/alexa_orrico))
 - Kiren Srinivasan [@srinitude](https://twitter.com/srinitude))
 - Thomas Wang ([@thpwang](https://twitter.com/thpwang))
--
 - All of us : [contributors](https://github.com/orcahubteam/orcahub/contributors)
