@@ -17,7 +17,7 @@ When a user attempts to log in to https://orcas.holberton.us (or a custom domain
 * [Environment](#environment)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Press Release](#pressrelease)
+* [Marketing](#marketing)
 * [Credits](#credits)
 
 ## Environment
@@ -43,11 +43,12 @@ Once the website is up, use a web browser to go to the home page to see a single
 
 Click on a specific repository link to view the commit history and a contribution panel covering the last 12 months will appear.
 
-## Press Release
+## Marketing
+
 An imaginative press release was written for this project for your amusement.
 <a href="https://github.com/orcahubteam/orcahub/blob/master/OrcaHub%20Press%20Release.pdf">OrcaHub Press Release</a>
 
-## Authors
+## Credits
 
 Tope Agboola ([@topea_](https://twitter.com/topea_))
 Minas Anton ([@minas_anton](https://twitter.com/minas_anton))
