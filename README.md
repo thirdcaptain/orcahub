@@ -1,6 +1,6 @@
 # OrcaHub - GitHub Contribution Panel project
 
-<img src="https://github.com/orcahubteam/orcahub/blob/master/LogoOrcahub.png" style="height:15%;width:15%" />
+<p><img src="https://github.com/orcahubteam/orcahub/blob/master/LogoOrcahub.png" style="height:15%;width:15%" /></p>
 
 ## Introduction
 
@@ -50,13 +50,14 @@ An imaginative press release was written for this project for your amusement.
 
 ## Credits
 
-Tope Agboola ([@topea_](https://twitter.com/topea_))
-Minas Anton ([@minas_anton](https://twitter.com/minas_anton))
-Andrew Birnberg ([@birnbera](https://twitter.com/birnbera))
-Felicia Hsieh ([@feliciahsiehsw](https://twitter.com/feliciahsiehsw))
-Tanya Kryukova ([@tyastropheus](https://twitter.com/tyastropheus))
-Larry Madeo ([@larmalade](https://twitter.com/larmalade))
-Alexa Orrico ([@alexa_orrico](https://twitter.com/alexa_orrico))
-Kiren Srinivasan [@srinitude](https://twitter.com/srinitude))
-Thomas Wang ([@thpwang](https://twitter.com/thpwang))
-All of us : [contributors](https://github.com/orcahubteam/orcahub/contributors)
+- Tope Agboola ([@topea_](https://twitter.com/topea_))
+- Minas Anton ([@minas_anton](https://twitter.com/minas_anton))
+- Andrew Birnberg ([@birnbera](https://twitter.com/birnbera))
+- Felicia Hsieh ([@feliciahsiehsw](https://twitter.com/feliciahsiehsw))
+- Tanya Kryukova ([@tyastropheus](https://twitter.com/tyastropheus))
+- Larry Madeo ([@larmalade](https://twitter.com/larmalade))
+- Alexa Orrico ([@alexa_orrico](https://twitter.com/alexa_orrico))
+- Kiren Srinivasan [@srinitude](https://twitter.com/srinitude))
+- Thomas Wang ([@thpwang](https://twitter.com/thpwang))
+-
+- All of us : [contributors](https://github.com/orcahubteam/orcahub/contributors)
